@@ -1,4 +1,5 @@
 import './App.css';
+import Bug from './components/Bug/Bug';
 
 function App() {
   const bugs=[
@@ -5409,7 +5410,7 @@ function App() {
     <>
       <h1>Animal Crossing Bugs</h1>
       {bugs.map(bug=>
-        <h2>{bug.name["name-USen"]}</h2>  
+        <Bug bug={bug} key={bug.id}/>  
       )}
     </>
   );

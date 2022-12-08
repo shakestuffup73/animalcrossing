@@ -1,6 +1,6 @@
 const Bug = (props) => {
   return ( 
-    <h2>Bug Component</h2>
+    <h2>{props.bug.name["name-USen"]}</h2>
   );
 }
 
