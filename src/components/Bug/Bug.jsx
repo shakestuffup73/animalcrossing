@@ -1,6 +1,6 @@
-const Bug = (props) => {
+const Bug = ({bug}) => {
   return ( 
-    <h2>{props.bug.name["name-USen"]}</h2>
+    <h2>{bug.name["name-USen"]}</h2>
   );
 }
 
